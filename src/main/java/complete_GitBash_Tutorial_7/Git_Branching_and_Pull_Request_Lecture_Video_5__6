@@ -2,3 +2,9 @@ Create a branch which is personal and just to avoid direct commit to master bran
 
 1. Adding a new branch 
  >git checkout -b hari_local
+ 
+ 2. git status
+ 3. git add .
+ 4. git status
+ 5. git commit -m"added new file changes"
+ 6. git push origin hari_local
