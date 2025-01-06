@@ -1,0 +1,10 @@
+FaceBook
+
+//select[@id='day']    ---> Day object
+//select[@id='day']/following-sibling::*  --> shows all siblings of day object
+//select[@id='day']/following-sibling::select[1]  --> Month object[following sibling]
+//select[@id='day']/following-sibling::select[2]  --> Year object[following sibling]
+
+
+
+********************End******************

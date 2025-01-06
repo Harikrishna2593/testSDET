@@ -1,0 +1,7 @@
+FaceBook
+//select[@id='day']/following-sibling::select[2]   ---> Day to year[following siblings]
+//select[@id='year']/preceding-sibling::select[2] ----> Year to day[preceding siblings]
+
+
+
+********************End******************

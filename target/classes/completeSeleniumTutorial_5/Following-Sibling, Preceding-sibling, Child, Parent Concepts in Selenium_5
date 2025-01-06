@@ -1,0 +1,35 @@
+https://www.actitime.com/
+
+** Following-Sibling, Preceding-sibling, Child, Parent Concepts in Selenium **
+
+//span[text()='Product']/parent::*/following-sibling::li[1]/span  -->> product to solutions[following sibling]
+
+//span[text()='Resources']/parent::*/preceding-sibling::li[3]/span -->> Resources to Product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------->> Refer selenium_Locators_writting_2  <<------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+FaceBook
+
+XPath
+
+starts-with
+//input[starts-with(@data-testid,'royal_')]  --->> starts-with
+ends-with
+//input[ends-with(@data-testid,'_email')]   --->> ends-with [Deprecated]
+
+
+CSS
+input[data-testid^='royal_']  --->> starts-with
+
+input[data-testid$='_email']   --->> ends-with
+
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------->> Refer selenium_Locators_writting_2  <<------------------------------
+
+
+

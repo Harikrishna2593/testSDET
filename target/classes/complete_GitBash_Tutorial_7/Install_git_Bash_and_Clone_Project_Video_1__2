@@ -1,0 +1,10 @@
+Install Git Bash and clone the project through Git CMD
+
+1. Install Git bash in to the System
+
+2. Programfile > Git > Git CMD
+
+3. access the desire folder ex. git_SourceCode
+
+4. Clone the project from git 
+ex:- git clone https://github.com/Harikrishna2593/testSDET.git

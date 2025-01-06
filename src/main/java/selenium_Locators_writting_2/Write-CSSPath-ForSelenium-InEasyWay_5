@@ -1,0 +1,24 @@
+CSS
+#reg_form_box                -- ID value (#Value)
+._1ixn                       -- Class value (.Value)
+#fullname_field>div[class='clearfix _58mh']
+#fullname_field>.clearfix    -- ID and Class
+#fullname_field>div.clearfix _58mh
+class="is_required validated test"  -- compound class --> .is_required.validated.test
+[data-name='gender_wrapper']._5k_3
+[aria-label='Day'][name='birthday_day'][title='Day']
+select[name^='birthday_']             ---> starts with
+select[name$='day']                   ---> ends with
+select[name*='birthday_day']          ---> Contains
+[aria-label='Day'][name='birthday_day'] --> Day [FaceBook]
+[aria-label='Day'][name='birthday_day']+select --> Month [FaceBook]
+[aria-label='Day'][name='birthday_day']+select+select --> Year [FaceBook] 
+span[data-name='gender_wrapper']>:nth-child(2)>:nth-child(1)>:nth-child(1)-- Male radio button
+span[data-name='gender_wrapper']>:nth-child(1)>:nth-child(1)>:nth-child(1)-- Female radio button
+span[data-name='gender_wrapper']>:nth-child(3)>:nth-child(1)>:nth-child(1)-- Custom radio button
+OR
+span[data-name='gender_wrapper']>:first-child>:first-child>:last-child
+span[data-name='gender_wrapper']>:last-child>:first-child>:last-child
+
+
+********************End******************

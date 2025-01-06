@@ -1,0 +1,14 @@
+SetUp eclipse with testNG and java-selenium dependencies along with drivers.
+1) selenium - java
+2) testNG
+3) executable drivers updated to Webdriver manager setUp [Add webdriver Manager depencency in POM.xml
+
+
+Add dependencies and maven install, then force update project.
+
+
+WebDriver Manager usage is that it will auto match the browser version with the driver version
+ in-case the browser is updated.
+
+
+

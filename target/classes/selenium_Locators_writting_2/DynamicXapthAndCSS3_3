@@ -1,0 +1,65 @@
+FACEBOOK
+HTML
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" 
+data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" 
+aria-label="Email address or phone number">
+XPath
+//input[@id='email']
+//input[@class='inputtext _55r1 _6luy'] --- don't use much, not priority
+//input[@name='email']
+//input[@id='email' and @name='email' and @class='inputtext _55r1 _6luy']
+//input[@placeholder='Email address or phone number' and @aria-label='Email address or phone number']
+CSS
+input[id='email']
+input[class='inputtext _55r1 _6luy'] --- don't use much, not priority
+input[name='email']
+input[id='email'][name='email'][class='inputtext _55r1 _6luy']
+input[placeholder='Email address or phone number'][aria-label='Email address or phone number']
+
+HTML
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" 
+name="login" data-testid="royal_login_button" type="submit" id="u_0_9_SA">Log in</button>
+XPath
+//button[@name='login']
+//button[@data-testid='royal_login_button' and @type='submit']
+//button[starts-with(@id,'u')]                                          ------> use this for Dynamic xpath, Starts-with
+//button[contains(text(),'Log in')]
+CSS
+button[name='login']
+button[data-testid='royal_login_button'][type='submit']
+button[id^='u']                                                        ------> use this for Dynamic xpath, Starts-with
+
+
+
+HTML
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="firstname" value="" aria-required="true" placeholder="" aria-label="First name" id="u_0_8_y4">
+XPath
+//input[@name='firstname']
+//input[@aria-required='true' and @aria-label='First name']
+//input[starts-with(@id,'u')]                                      ---> not unique but use findElements.get(*)
+CSS
+input[name='firstname']
+input[aria-required='true'][aria-label='First name']
+input[id^='u']                                                    ---> not unique but use findElements.get(*)
+
+
+
+********************End******************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

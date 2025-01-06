@@ -1,0 +1,10 @@
+FaceBook 
+*First Name*
+XPath
+//div[@id='reg_form_box']/child::div[1]/descendant::div[1]/descendant::div[1]/child::div[1]
+*SurName*
+XPath
+//div[@id='reg_form_box']/descendant::div[1]/child::div[1]/child::div[2]/descendant::div[1]
+
+
+********************End******************

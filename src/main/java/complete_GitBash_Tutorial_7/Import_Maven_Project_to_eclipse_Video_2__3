@@ -1,0 +1,9 @@
+Import Project into eclipse through git cmd
+
+1. clone git repo project into local folder using
+ex git clone <project url>
+
+2. In eclipse import project from the local folder where project is available 
+   -import as maven existing project
+   - Incase if the project is corrupt, you can delete it from .M2 folder of users and import again.
+   - Add latest java libraries and mvn install pom.xml

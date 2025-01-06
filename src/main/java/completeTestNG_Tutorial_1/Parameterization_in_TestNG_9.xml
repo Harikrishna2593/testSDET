@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Parameters Suite">
+<parameter name="userName" value="HariKrishna25"></parameter>
+<parameter name="password" value="SaiHanuman@2025"></parameter>
+
+	<test name="Parameters Test">
+
+		<classes>
+			<class
+				name="completeTestNG_Tutorial_1.Parameterization_in_TestNG_9" />
+		</classes>
+
+	</test>
+
+</suite>

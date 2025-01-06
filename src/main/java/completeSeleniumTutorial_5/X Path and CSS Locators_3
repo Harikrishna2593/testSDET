@@ -1,0 +1,36 @@
+Seleniumhq
+
+XPath
+
+List of elements or findElements()
+
+//div[@id='main_navbar']/ul/li                    ---> This Object will return list of common elements
+//div[@id='main_navbar']/ul/li[2]                 ---> Specific element
+
+CSS
+
+div[id='main_navbar']>ul>li 
+div[id='main_navbar']>ul>:nth-child(2)
+
+
+
+
+
+
+----------------------------->> Reffer selenium_Locators_writting_2  <<------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

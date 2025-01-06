@@ -1,0 +1,61 @@
+HTML	
+
+<a class="nav-link" href="/downloads"><span>Downloads</span></a>
+XPath
+//tagName[@attributeName='attributeValue']
+//a[@href='/downloads']
+//a[@class='nav-link']
+//span[contains(text(),'Downloads')]
+CSS
+tagName[attributeName='attributeValue']
+a[href='/downloads']
+a[class='nav-link']
+
+
+<a class="nav-link" href="/projects"><span>Projects</span></a>
+XPath
+//a[@class='nav-link']
+//a[@href='/projects']
+//span[contains(text(),'Projects')]	
+CSS
+a[class='nav-link']
+a[href='/projects']
+
+<a class="nav-link" href="/documentation">
+ <span>Documentation</span>
+ </a>
+
+ 
+ XPath
+ //a[@href='/documentation']/span
+ //a[@class='nav-link']/span
+ //a[@href='/documentation']
+//a[@class='nav-link']
+ //span[contains(text(),'Documentation')]
+ 
+ CSS
+ a[href='/documentation']>span
+ a[class='nav-link']>span
+ a[href='/documentation']
+ 
+ 
+ ********************End******************
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

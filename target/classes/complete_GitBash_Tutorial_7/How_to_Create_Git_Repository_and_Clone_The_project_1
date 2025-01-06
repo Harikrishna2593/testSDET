@@ -1,0 +1,35 @@
+1). Create Git Hub Account
+signIn details
+userName :- Harikrishna2593
+Password :- Saihanuman@2025
+
+
+2). Create a new Repository
+
+3). Copy the url from git and import in eclipse by selecting git project 
+1. Add uri and import as general project.
+2. You can convert the general project in eclipse as maven project. congigure > convert as maven project.
+3. Add latest JDK in the project from build path> Library
+4. Create a sample class and try to commit.
+
+
+4). Install Git Bash in local/System
+
+1. programFiles > git > gitbash ---> cd, ls
+2. open cmd - cd git/
+3. ls
+4. cd <new repo name>
+5. git status
+6. git add .
+7. git status
+8. git commit -m"adding a class"
+9. git push origin main
+10. git branch
+11. Add class B in eclipse
+12. gitbash cmd --> git status
+13. git add .
+14. git status
+15. git commit -m"adding class B"
+16. git push origin main
+17. check in Git repo
+

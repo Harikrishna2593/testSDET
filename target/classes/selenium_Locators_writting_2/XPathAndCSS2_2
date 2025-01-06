@@ -1,0 +1,58 @@
+HTML
+https://www.selenium.dev/downloads/
+<section class="row td-box td-box--gradient -bg-selenium-cyan p-2">
+ <div class="col">
+  <div class="row">
+   <div class="mx-auto text-center p-4">
+    <h1 class="d-1">Downloads</h1>
+
+XPath
+//h1[contains(text(),'Downloads')]
+//div[@class='mx-auto text-center p-4']/h1
+//section[@class='row td-box td-box--gradient -bg-selenium-cyan p-2']/div[1]/div[1]/div[1]/h1
+
+CSS
+div[class='mx-auto text-center p-4']>h1
+section[class='row td-box td-box--gradient -bg-selenium-cyan p-2']>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)
+
+****************************************************************************8	
+<h2 id="bindings" class="card-title">Selenium Clients and WebDriver Language Bindings</h2>
+XPath
+//h2[@id='bindings']
+//h2[contains(text(),'Selenium Clients and WebDriver Language Bindings')]
+CSS
+#bindings
+****************************************************************
+Apache
+
+XPath
+//main[@id='maincontent']/section/div/div/div/div/h1
+CSS
+#maincontent>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)
+main[id='maincontent']>section>div>div>div>div>h1
+main[id='maincontent']>:nth-child(1)>div>div>div>div>:nth-child(1)
+********************************************
+FACEBOOK
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" aria-label="Email address or phone number">
+
+XPath
+//input[@id='email']
+//input[@name='email']
+//input[@id='email' and @placeholder='Email address or phone number'] 
+CSS
+input[id='email']
+input[name='email']
+input[id='email'][placeholder='Email address or phone number'] 
+#email[name='email']
+*******************************************************
+
+
+
+********************End******************
+
+
+
+
+
+
+
