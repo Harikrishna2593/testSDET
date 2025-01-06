@@ -1,1 +1,12 @@
 Get code from Master branch to Local branch
+
+> git branch
+--> if on local branch
+> git checkout master
+--> switch to master
+>git pull origin master
+>git checkout hari_local
+git pull origin master
+
+to get the code from master to local branch. you must switch to master and pull the code from master and 
+then switch to local branch and use the command [git pull origin master]
