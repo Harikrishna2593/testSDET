@@ -15,7 +15,6 @@ Create a branch which is personal and just to avoid direct commit to master bran
  11. can now check the file in master it will be present after the corfirm merge.
  
  for switching to another branch
- 
  $ git checkout hari_local
 Switched to branch 'hari_local'
  
