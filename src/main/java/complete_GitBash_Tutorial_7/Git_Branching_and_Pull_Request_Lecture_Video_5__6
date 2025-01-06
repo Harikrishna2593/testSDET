@@ -1,4 +1,21 @@
 Create a branch which is personal and just to avoid direct commit to master branch
 
 1. Adding a new branch 
- >git checkout -b hari_local
+ >git checkout -b hari_local  [to create new branch] and check for branches >git branch
+ 
+ 2. git status
+ 3. git add .
+ 4. git status
+ 5. git commit -m"added new file changes"
+ 6. git push origin hari_local
+ 7. goto the hari_local in git
+ 8. compare and pull request with master
+ 9. add title and description and create pull request
+ 10. merge pull request and confirm changes [can be done by master branch owner]
+ 11. can now check the file in master it will be present after the corfirm merge.
+ 
+ for switching to another branch
+ 
+ $ git checkout hari_local
+Switched to branch 'hari_local'
+ 
