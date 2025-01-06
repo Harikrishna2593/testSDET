@@ -1,0 +1,13 @@
+
+TO push the local eclipse project to git.
+
+1). Access the eclipse-project through git cmd and use the command as 
+  1 >Git init to be identified by git
+  2.git status --> to check the files to be added
+  3. git add . --> to add all files
+  4. git status --> to check all the files are added
+  5. git commit -m"my preparation project"
+  6. git remote add origin <https://github.com/username/repository.git>
+                            or
+  git remote set-url origin https://github.com/Harikrishna2593/testSDET.git
+  7. git push origin master
