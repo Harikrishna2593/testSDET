@@ -1,0 +1,4 @@
+Getting the files from git into the local repo
+
+1. git status
+2. git pull origin master 
