@@ -1,0 +1,19 @@
+Q) What is Stash in git?
+A) git stash saves the file temporarily..
+let's say if you want to pull the code from master then git asks you save the implemented code or to
+commit the code then you can use the command 
+> git stash (saves code)
+then after the pull from master
+> git pull origin master
+then you can use the command before  adding the changes
+> git stash apply
+> git add .
+> git commit -m"aa"
+> git push origin <branch>
+
+Q) What is diff command?
+A) git diff command shows the changes in the file.
+
+use command
+
+> git diff <file name>

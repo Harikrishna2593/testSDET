@@ -1,0 +1,20 @@
+Q)What is pull request?
+
+A) if you are a head of changes and you want others to add the chnages(yours) then you raise pull request.
+pull request is raised and other person will review, pull the changes and merge the code into his branch[master]
+
+in company's if you are making changes and need to raise the pull request to merge the changes to master.
+
+
+Q) what is conflicts and how to resolve?
+
+If two people are working on the same file then conflict happens, both needs to look into the changes then
+resolve the conflict and should merge the code into local and then into master.
+
+before commiting the code of yours always pull the code from master and then commit your code.
+that is the best practice.
+
+Q)what is git stash?
+A) if you are pulling the code from master and the may override then ask to save before pull
+then you use >git stash to save changes and pull code
+to apply the stashed code you use the command >git stash apply 
