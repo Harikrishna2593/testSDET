@@ -1,0 +1,16 @@
+Git installation, cloning and import in eclipse.
+
+
+1.Download the git in your machine from online of windows 64-bit.
+
+2.Open the CMD and goto the folder you want to clone the project
+
+3.In desired folder clone the project, copy the project url from git repository. use command
+
+> git clone <git project url>
+
+4.After download of the project. Import the project in eclipse. select as maven existing project.
+
+5.Do maven install to download libraries in pom.xml
+
+6.Do force maven update and refresh

@@ -1,0 +1,27 @@
+Create new branch, commit code, create pull request and merge code.
+
+
+1).Create new branch or local branch
+> git checkout -b hari_loc
+> git branch
+
+2).Add files and commit code
+> git status
+> git add .
+> git status
+> git commit -m"new files added"
+> git push origin hari_loc
+> git pull origin master
+      OR
+> git checkout master
+> git branch
+> git pull origin master
+> git checkout hari_loc
+> git pull origin master
+
+3).Go to Git Repository
+
+4).Create pull request to master from hari_loc[latest committed]
+ 
+5). Add reviewers to review your code who has access or if you have access merge the code to master
+
