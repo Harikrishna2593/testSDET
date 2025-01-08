@@ -1,0 +1,18 @@
+ 
+Add File to git Repository
+ 
+ 1.     git add .
+
+        or
+        
+      git add <file name>
+      
+2      git status
+      
+      
+3.     git commit -m"comments"
+      
+      
+4.     git push origin hari_local
+
+5. git pull origin master
